@@ -41,6 +41,8 @@ public class CacheConfiguration {
             cm.createCache(org.wizroots.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(org.wizroots.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(org.wizroots.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(org.wizroots.domain.Wizroots.class.getName(), jcacheConfiguration);
+            cm.createCache(org.wizroots.domain.Designation.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

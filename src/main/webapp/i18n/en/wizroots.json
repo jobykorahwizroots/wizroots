@@ -1,0 +1,26 @@
+
+{
+    "wizrootsApp": {
+        "wizroots" : {
+            "home": {
+                "title": "Wizroots",
+                "createLabel": "Create a new Wizroots",
+                "createOrEditLabel": "Create or edit a Wizroots"
+            },
+            "created": "A new Wizroots is created with identifier {{ param }}",
+            "updated": "A Wizroots is updated with identifier {{ param }}",
+            "deleted": "A Wizroots is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Wizroots {{ id }}?"
+            },
+            "detail": {
+                "title": "Wizroots"
+            },
+            "name": "Name",
+            "dob": "Dob",
+            "place": "Place",
+            "address": "Address",
+            "designation": "Designation"
+        }
+    }
+}
